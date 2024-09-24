@@ -42,7 +42,7 @@ hr{
 	margin-bottom:0px;
 	
 }
-#log{
+.signup{
 	background-color:#1a77f2;
 	color:white;
 	border: 1px solid #1a77f2;
@@ -52,9 +52,9 @@ hr{
 	width: 280px;
 }
 #newact{
-	margin-left: 5px;
+	margin-left: 60px;
 	height:25px;
-	width: 280px;
+	width: 180px;
 	background-color: #43b72a;
 	color:white;
 	border: 1px solid #c3e8bb;
