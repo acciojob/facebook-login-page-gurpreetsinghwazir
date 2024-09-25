@@ -1,38 +1,42 @@
-<!DOCTYPE html>
-
 <html>
+  <head>
+	  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+  </head>
+  <body>
+    <!-- Write your code here -->
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<div class= "parent">
-		
-		<div class ="first">
-			<h1>facebook</h1>
-			<h4>Facebook helps you connect and share<br> with the people in your life</h4>
-		</div>
-
-		
-		<div class="second">
-			<form class= "form">
-				<input type="email" placeholder="Email address or phone number">
-				<input type="password"  placeholder="Password">
-				<button onclick= "document.location='https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0'" type= "button" class="signup">Log in</button>
-				<a href="/recover/initiate">Forgotten accoun?</a>
-
-<hr>
-				<button on onclick= "document.location= 'https://www.facebook.com/r.php?locale=en_GB&display=page'"
-					type= "button" id="newact">Create new account</button>
-			</form>
-		</div>  
-</div>
+<div class = "FB">
+	  
+	  <div class= "left">
+		  <img src = "https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" width = "200px" height = "200px" alt  = "Facebook logo" />
+		  <p>Facebook helps you connect and share with the people in your life.</p>
+	  </div>
 	
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-</body>
 
+	
+<div class = "right">
+	<form class= "formone">
+		<input type="text" id="email" name="fname" placeholder= "Email address or phone number">
+		<input type="password" id="password" name="password" placeholder = "Password">
+		<button type="submit" id="one">Log in</button><br>
+		<a href = "https://www.w3schools.com/tags/tag_button.asp" id = "link">Forgotten account?</a>
+		<button type="button" class = "signup">Create new account</button><br><br>
+	</form>
+	
+	
+	</div>
+	
+</div>
+
+
+
+
+	  
+  </body>
 </html>

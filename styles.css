@@ -1,68 +1,63 @@
-/*  your css code here. If applicable */
 body{
 	background-color: #f6f6f6;
-	width:100%;
-}
-h1{
-	
-}
-.first{
-	text-align:start;
-	margin-left: 50px;
-	margin-top: 50px;
-	
-}
-.parent{ 
 	display:flex;
-	text-align:center;	
+	justify-content:center;
+	align-items: center;
+	height:100vh;
 }
-h1{
-	color:#1a77f2;
-	font-size: 40px;
-
-}
-.form{
+.left p{
 	display:flex;
+}
+.left{
+	width: 450px;
+	margin-top: 70px;
+	display: inline-block;
+}
+.formone{
+	display: flex;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+	
 	flex-direction: column;
-	align-content: center;
-	gap:10px;
-	margin-left: 90px;
-	margin-top:50px;
-	
-	border: 2px solid gray;
-	padding:30px;
-	border-radius:9px;
-	outline: 1px solid #32557f;
-	width: 300px
+	gap: 10px;
 }
-hr{
-	width: 90%;
-    border-top: 2px solid gray;
-    margin-top: 0px;
-	margin-bottom:0px;
-	
+.formone input{
+	border: 1px solid #cccc;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#one{
+	background-color: #1877f2;
+	border-radius:5px;
+	padding: 10px 20px;
+	width: auto;
+	border:none;
+	color: white;
+}
+.formone a{
+	color: #1877f2;
+	text-decoration: none;
 }
 .signup{
-	background-color:#1a77f2;
-	color:white;
-	border: 1px solid #1a77f2;
+	background-color: #42b72a;
 	border-radius:5px;
-	margin-left: 5px;
-	height:25px;
-	width: 280px;
+	border: none;
+	padding: 10px 20px;
+	color: white;
 }
-#newact{
-	margin-left: 60px;
-	height:25px;
-	width: 180px;
-	background-color: #43b72a;
-	color:white;
-	border: 1px solid #c3e8bb;
-	border-radius:5px;
+img{
+	margin: 20px;	
+	padding-left: 90px;
+	
 }
-
-
-
-
+.FB{
+	display:flex;
+	padding-left: 200px;
+	padding-right: 15px;
+}
 
 
