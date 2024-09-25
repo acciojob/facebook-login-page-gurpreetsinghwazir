@@ -8,37 +8,25 @@
     <title>Facebook Login</title>
   </head>
   <body>
-    <!-- Write your code here -->
-
-<div class = "FB">
-	  
-	  <div class= "left">
-		  <img src = "https://images.unsplash.com/photo-1678375675659-f570d3b0ce11?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width = "200px" height = "200px" alt  = "left img" />
-		  <p>Facebook helps you connect and share with the people in your life.</p>
-	  </div>
-	
-
-
-	
-<div class = "right">
-	<form class= "formone">
-		<input type="text" id="email" name="fname" placeholder= "Email address or phone number">
-		<input type="password" id="password" name="password" placeholder = "Password">
-		<input type="submit" id="one" value="Log in">
-
-		
-		<a href = "https://recover/initiate.php" id = "link">Forgotten account?</a>
-		<button type="button" onclick = "window.location = `https://www.facebook.com/reg`" class = "signup">Create new account</button><br><br>
-	</form>    
-	 
-	
-	</div> 
-	  
-</div> 
-
-
- 
-
-	  
-  </body>
+    <div class="FB">
+        <div class="left">
+            <img src="https://images.unsplash.com/photo-1678375675659-f570d3b0ce11?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200" height="200" alt="Facebook logo" />
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right">
+            <form class="formone">
+                <label for="email">Email address or phone number</label>
+                <input type="text" id="email" name="email" placeholder="Email address or phone number" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                
+                <input type="submit" id="one" value="Log in">
+                
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&next=https%3A%2F%2Fwww.facebook.com%2F&from_login_screen=0" id="link">Forgotten account?</a>
+                <button type="button" onclick="document.location = 'https://www.facebook.com/r.php?next=https%3A%2F%2Fwww.facebook.com%2F&locale=en_GB&display=page'" class="signup">Create new account</button>
+            </form>
+        </div>  
+    </div>  
+</body>
 </html>
